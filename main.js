@@ -30,18 +30,16 @@ if(numero1 > numero2 &&  numero1 > numero3){
  
 
 
-alert('tabla que muestra los numeros pares hasta el 25 ')
+ limiteMaximo = parseInt(prompt('dime un numero y te dire todos los numeros pares e inpares hasta llegar a este'))
 
-for(let i=0;i<=25;i++){
-    if(i % 2 != 0){
-        alert(i + ' es inpar')
-    }else {
-        alert(i + ' es par ')
-    }
-
-    if(i == 25){
-        alert('tabla terminada')
-    }
-
-}
+ for(let i=0;i<=limiteMaximo;i++){
+     if(i % 2 != 0){
+         alert(i + ' es inpar')
+     }else {
+         alert(i + ' es par ')
+     }
+     if(i == limiteMaximo){
+         alert('tabla terminada')
+     }
+ }
 
